@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <title>Proiect - Editor fotografii </title>
+  <link rel="stylesheet" href="4_1084_ALEXANDRU_Filip_Andrei.css" />
+</head>
+<body>
+
+<h1> Editor fotografii </h1>
+
+
+<div class="linie">
+
+  <input id="inputFisier" type="file" accept="image/*">
+  <button id="btnSalveaza">Salveaza poza</button>
+</div>
+
+<div class="linie">
+  <button id="btnCrop">Crop</button>
+
+   <button id="btnAlbNegru">Alb-negru </button>
+
+  <button id="btnAlb">Sterge alb</button>
+</div>
+
+<div class="linie">
+  <label>Latime noua:
+    <input id="inpLatime" type="number" min="1">
+  </label>
+
+  <button id="btnLatime">Scaleaza dupa latime</button>
+
+  <label>Inaltime noua:
+    <input id="inpInaltime" type="number" min="1">
+  </label>
+
+  <button id="btnInaltime">Scaleaza dupa inaltime </button>
+</div>
+
+<div class="linie">
+  <label>Text:
+
+    <input id="inpText" type="text" placeholder="ex: aaaa">
+  </label>
+
+  <label>Marime :
+    <input id="inpMarime" type="number" value="12" min="6">
+  </label>
+
+  <label>Culoare:
+    <input id="inpCuloare" type="color" value="#ff0000">
+
+  </label>
+
+  <label>X:
+    <input id="inpX" type="number" value="0" min="0">
+  </label>
+
+  <label>Y:
+    <input id="inpY" type="number" value="0" min="0">
+  </label>
+
+  <button id="btnText">Adauga text</button>
+
+</div>
+
+ <canvas id="canvas" width="900" height="520"></canvas>
+
+<script src="4_1084_ALEXANDRU_Filip_Andrei.js"></script>
+</body>
+</html>

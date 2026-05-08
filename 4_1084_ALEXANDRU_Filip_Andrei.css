@@ -1,0 +1,60 @@
+
+
+body {
+    font-family : Arial, sans-serif ;
+
+    margin: 12px ;
+    background:  #eaf2ff;
+    color: #0f1b2d;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0 0 10px 0 ;
+
+    color: #0b3d91;
+}
+
+.linie  {
+
+    background: #ffffff;
+    border: 1px solid #b9d0ff;
+     padding: 10px;
+    margin: 8px 0 ;
+    border-radius: 6px;
+ }
+
+.mic {
+    font-size: 12px;
+    color:  #2a4776;
+}
+
+canvas  {
+    border: 2px solid #0b3d91;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+input, button {
+
+    margin-right: 8px;
+    margin-top: 6px;
+    padding: 6px 8px;
+    font-size: 14px;
+
+}
+
+button {
+    background: #1e66ff;
+     color: white;
+    border: 1px  solid #0b3d91;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+
+input   {  
+    border: 1px solid #9dbfff;
+    border-radius: 6px;
+}
